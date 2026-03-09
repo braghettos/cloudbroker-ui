@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html,
+  body {
+    background-color: var(--background);
+    color: var(--foreground);
+    font-family: "DM Sans", system-ui, -apple-system, sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Space Grotesk", "DM Sans", system-ui, sans-serif;
+  }
+
+  /* CloudBroker landing palette: electric teal, sky-soft backgrounds */
+  :root {
+    --radius: 0.75rem;
+    --background: #ffffff;
+    --foreground: #0f172a;
+    --card: #ffffff;
+    --card-foreground: #0f172a;
+    --popover: #ffffff;
+    --popover-foreground: #0f172a;
+    --primary: #0d9488;
+    --primary-foreground: #ffffff;
+    --secondary: #f0f9ff;
+    --secondary-foreground: #0f172a;
+    --muted: #f0f9ff;
+    --muted-foreground: #475569;
+    --accent: #ccfbf1;
+    --accent-foreground: #0f172a;
+    --destructive: #dc2626;
+    --destructive-foreground: #ffffff;
+    --border: #e0f2fe;
+    --input: #e0f2fe;
+    --ring: #0d9488;
+  }
+
+  .dark {
+    --background: #0d1117;
+    --foreground: #e6edf3;
+    --card: #161b22;
+    --card-foreground: #e6edf3;
+    --popover: #21262d;
+    --popover-foreground: #e6edf3;
+    --primary: #2dd4bf;
+    --primary-foreground: #0d1117;
+    --secondary: #161b22;
+    --secondary-foreground: #e6edf3;
+    --muted: #21262d;
+    --muted-foreground: #8b949e;
+    --accent: #1e3a36;
+    --accent-foreground: #e6edf3;
+    --destructive: #f85149;
+    --destructive-foreground: #ffffff;
+    --border: #30363d;
+    --input: #30363d;
+    --ring: #2dd4bf;
+  }
+}
